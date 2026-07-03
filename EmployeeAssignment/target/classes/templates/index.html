@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+<meta charset="UTF-8">
+<title>Employee Management System</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<style>
+
+body{
+    background:#f5f5f5;
+}
+
+.card{
+    margin-top:70px;
+    border-radius:15px;
+    box-shadow:0 0 15px rgba(0,0,0,0.15);
+}
+
+.card-header{
+    background:#198754;
+    color:white;
+    text-align:center;
+    font-size:28px;
+    font-weight:bold;
+    padding:15px;
+}
+
+.card-body{
+    padding:30px;
+}
+
+.btn-custom{
+    background:#198754;
+    color:white;
+    border:none;
+    margin-bottom:15px;
+}
+
+.btn-custom:hover{
+    background:#157347;
+    color:white;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="row justify-content-center">
+
+        <div class="col-md-5">
+
+            <div class="card">
+
+                <div class="card-header">
+                    Employee Management System
+                </div>
+
+                <div class="card-body">
+
+                    <div class="d-grid gap-3">
+
+                        <a href="/createPage" class="btn btn-custom">
+                            Create Employee
+                        </a>
+
+                        <a href="/displayPage" class="btn btn-custom">
+                            Display Employees
+                        </a>
+
+                        <a href="/raiseSalaryPage" class="btn btn-custom">
+                            Raise Salary
+                        </a>
+
+                        <a href="/exit" class="btn btn-custom">
+                            Exit
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+
+</html>
